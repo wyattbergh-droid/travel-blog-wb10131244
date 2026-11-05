@@ -1,0 +1,27 @@
+#img-container {
+    position: relative;
+}
+
+img {
+    width: 50%;
+}
+
+
+
+#river {
+    position:absolute;
+    right: 0px;
+}
+
+#waterfall {
+    position:relative;
+    width: 100%;
+    top: -5px;
+}
+
+#loon {
+    position: relative;
+    left: 25%;
+}
+
+

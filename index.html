@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Bergh to Beyond</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
+        <img src="imgs/from-bergh-to-beyond.jpg" alt="From Bergh to Beyond Logo" class="logo">
+        <div class="page-title">
+            <h1 class="title">From Bergh to Beyond</h1>
+            <p class="subtitle">Traveling the world</p>
+        </div>
         <nav class="sticky-nav">
-            <img src="imgs/from-bergh-to-beyond.jpg" alt="From Bergh to Beyond Logo" class="logo">
-            <div class="page-title">
-                <h1 class="title">From Bergh to Beyond</h1>
-                <p class="subtitle">Uncovering the beauty of the world, one destination after another!</p>
-            </div>
+            <!--hamburger menu for mobile first-->
+            <input type="checkbox" name="hamburger-menu" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">&#9776;</label>
 
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -27,38 +27,45 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="hero-index">
-            <img src="imgs/canada-glass.jpg" alt="Beautiful landscape of Canada Lake with pine trees in the background"
-                id="hero-image">
-        </section>
-        <section id="welcome">
-            <h1>Welcome to From Bergh to Beyond</h1>
-            <p>
-                Welcome to my travel blog! Throughout my life I have been fortunate enough to go on a few
-                amazing trips and I want to share my experiences with you. From the beautiful lakes in Canada
-                to the breath-taking mountains in Montana, to standing on the edge of the Grand Canyon, I have seen
-                some gorgeous places and I want to dive into my experiences and allow a glimpse into the best parts of
-                my adventures. I hope you enjoy reading about my travels as much as I got to enjoy them!
-            </p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                My name is Berghie and I am 25 years old, and have been to some really cool places. I have
-                always been fascinated by the world and all of the different cultures and landscapes the world has to
-                offer.
-                My dream is to travel to Japan and see the beautiful rich culture and history of the country. My Fiance
-                and I are saving money
-                to go on a vacation to Japan once we are married. I have been to a few places only in the North America
-                region, but I dream to
-                explore various regions of the world and experience the different cultures food and landscapes.
-            </p>
-        </section>
-        <section>
 
-        </section>
+    <main>
+        <img src="imgs/canada-glass.jpg" alt="Beautiful landscape of Canada Lake with pine trees in the background"
+            id="hero-image">
+        <div id="text-border">
+            <section id="welcome">
+                <h2>Welcome to From Bergh to Beyond</h2>
+                <p>
+                    Welcome to my travel blog! Throughout my life I have been fortunate enough to go on a few
+                    amazing trips and I want to share my experiences with you. From the beautiful lakes in Canada
+                    to the breath-taking mountains in Montana, to standing on the edge of the Grand Canyon, I have seen
+                    some gorgeous places and I want to dive into my experiences and allow a glimpse into the best parts
+                    of
+                    my adventures. I hope you enjoy reading about my travels as much as I got to enjoy them!
+                </p>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    My name is Wyatt and I am 25 years old, and have been to some really cool places. I have
+                    always been fascinated by the world and all of the different cultures and landscapes the world has
+                    to
+                    offer.
+                    My dream is to travel to Japan and see the beautiful rich culture and history of the country. My
+                    Fiance
+                    and I are saving money
+                    to go on a vacation to Japan once we are married. I have been to a few places only in the North
+                    America
+                    region, but I dream to
+                    explore various regions of the world and experience the different cultures food and landscapes.
+                </p>
+            </section>
+        </div>
+
     </main>
+    <footer>
+        <h3>Thanks for visiting my travel blog.</h3>
+        <p>All rights reserved Wyatt Bergh &copy;</p>
+    </footer>
 
 </body>
 

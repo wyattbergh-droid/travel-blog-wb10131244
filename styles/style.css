@@ -1,0 +1,171 @@
+
+:root {
+    /*blue colors*/
+    --primary: darkcyan;
+    --primary-light: #2aa7a7;
+    --primary-dark: #006b6b;
+
+    /*slate colors*/
+    --slate: #708090;
+    --slate-dark: #556070;
+    --slate-light: #a0acb8;
+
+    /*background-colors*/
+    --bg: #f4fafa;
+    --bg-dark: #b4c1c1;
+
+    /*text-colors*/
+    --text-color: #1f2d2d;
+    --text-color-light: #3a4c4c;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*general color settings*/
+body{
+    background-color: var(--bg);
+}
+
+h1,h2,h3 {
+    color: var(--primary-dark);
+}
+
+p {
+    color: var(--text-color-light);
+}
+
+main {
+    background-color: var(--bg-dark);
+    padding-bottom: 10px;
+}
+
+/* Mobile First Nav*/
+
+header {
+    background-color: var(--bg);
+    box-shadow: 1px 1px 1px var(--slate-dark);
+    height: 100px;
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links li {
+    background-color: var(--slate);
+    border-bottom: 2px solid var(--primary-light);
+    padding: 10px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-links a:hover{
+    font-size: 20px;
+}
+
+#menu-toggle {
+    display: none;
+    position: relative;
+}
+
+.hamburger-icon {
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    right: -100px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.nav-links {
+    display: none;
+    list-style: none;
+}
+
+#menu-toggle:checked ~ .nav-links {
+    display: block;
+    position: relative;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-top:0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: var(--text-color-light);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+    text-align: center;
+}
+
+.page-title {
+    margin-left: 90px;
+    padding-top: 5px;
+}
+
+.logo {
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+}
+
+#hero-image {
+    width: 100%;
+    padding: 0;
+}
+
+#text-border{
+    margin: 10px;
+}
+
+#welcome, #about{
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--bg); 
+    text-align: center;
+    border: 1px solid var(--primary-light);
+    box-shadow: 3px 3px 10px var(--slate);
+    border-radius: 10px;
+}
+
+#welcome p, #about p {
+    text-align: left;
+}
+
+footer {
+    background-color: var(--bg);
+    text-align: center;
+    position: sticky;
+    height: 50px;
+    padding: 10px;
+}
+
+footer h3,footer p {
+    position: relative;
+    top: 10px;
+}
+
+@media (min-width: 600px){
+
+
+
+}

@@ -1,0 +1,77 @@
+:root {
+    /*blue colors*/
+    --primary: darkcyan;
+    --primary-light: #2aa7a7;
+    --primary-dark: #006b6b;
+
+    /*slate colors*/
+    --slate: #708090;
+    --slate-dark: #556070;
+    --slate-light: #a0acb8;
+
+    /*background-colors*/
+    --bg: #f4fafa;
+    --bg-dark: #b4c1c1;
+
+    /*text-colors*/
+    --text-color: #1f2d2d;
+    --text-color-light: #3a4c4c;
+
+}
+
+.canada-article {
+  position: relative;
+  padding: 20px;
+  width: 50%;
+  height: 300px;
+}
+
+.canada-article h2 {
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid var(--slate-dark);
+    
+}
+
+.canada-article p {
+    position: relative;
+}
+
+.canada-callout {
+  position: absolute;
+  background: var(--primary);
+  display: inline-block;
+  left: 100%;
+  top: 10px;
+  border: 2px solid var(--slate-dark);
+  box-shadow: 3px 3px 4px var(--slate);
+  padding: 6px 10px 10px 10px;
+  width: inherit;
+  height: fit-content;
+  text-align: center;
+}
+
+.canada-callout h3{
+    color: var(--text-color-light);
+    border-bottom: 1px solid var(--slate-dark);
+}
+
+.canada-callout p {
+    padding: 5px 0px 5px 0px;
+    color: var(--text-color);
+}
+
+.montana-article {
+    position: relative;
+    padding: 20px;
+    width: 50%;
+}
+
+.montana-article h2 {
+    border-bottom: 1px solid var(--slate-dark);
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
